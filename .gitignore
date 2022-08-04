@@ -1,10 +1,15 @@
 /docs
+*.pptx
 # dependencies
 react_hooks/node_modules
 react_hooks/.pnp
-react_hooks.pnp.js
+react_hooks/.pnp.js
 
 redux/node_modules
+
+react_query/node_modules
+react_query/.pnp
+react_query/.pnp.js
 
 react_redux/node_modules
 react_redux/.pnp
@@ -14,13 +19,23 @@ react_reconciliation/node_modules
 react_reconciliation/.pnp
 react_reconciliation/.pnp.js
 
+react_route/node_modules
+react_route/.pnp
+react_route/.pnp.js
+
 # testing
 react_hooks/coverage
 react_reconciliation/coverage
 react_redux/coverage
+react_query/coverage
+react_route/coverage
 
 # production
-/build
+react_redux/build
+react_hooks/build
+react_reconciliation/build
+react_route/build
+react_query/build
 
 # misc
 react_hooks/.DS_Store
@@ -35,12 +50,23 @@ react_reconciliation/.env.development.local
 react_reconciliation/.env.test.local
 react_reconciliation/.env.production.local
 
-
 react_redux/.DS_Store
 react_redux/.env.local
 react_redux/.env.development.local
 react_redux/.env.test.local
 react_redux/.env.production.local
+
+react_route/.DS_Store
+react_route/.env.local
+react_route/.env.development.local
+react_route/.env.test.local
+react_route/.env.production.local
+
+react_query/.DS_Store
+react_query/.env.local
+react_query/.env.development.local
+react_query/.env.test.local
+react_query/.env.production.local
 
 npm-debug.log*
 yarn-debug.log*
