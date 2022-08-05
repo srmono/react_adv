@@ -1,0 +1,45 @@
+{
+    "superheroes": [
+      {
+        "id": 1,
+        "name": "Batman",
+        "alterEgo": "Bruce Wayne"
+      },
+      {
+        "id": 2,
+        "name": "Superman",
+        "alterEgo": "Clark Kent"
+      },
+      {
+        "id": 3,
+        "name": "Wonder Woman",
+        "alterEgo": "Princess Diana"
+      }
+    ],
+    "friends": [
+      {
+        "id":1,
+        "name": "Venkat"
+      },
+      {
+        "id":2,
+        "name": "Rama"
+      },
+      {
+        "id":3,
+        "name": "Sesi"
+      }
+    ],
+    "users": [
+      {
+        "id": "venkat@gmail.com",
+        "projectId": "reactProj"
+      }
+    ],
+    "projects":[
+      {
+        "id": "reactProj",
+        "tools": ["react", "redux", "axios"]
+      }
+    ]
+  }
